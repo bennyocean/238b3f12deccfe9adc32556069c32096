@@ -1,0 +1,8 @@
+.Trash/
+*.DS_Store
+*.Rhistory
+*.ipynb_checkpoints/
+.vscode/
+__pycache__/
+*.log
+*.bak
