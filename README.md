@@ -115,7 +115,7 @@ These observations emphasize the shared patterns among stablecoins and protocol-
 Log changes (i.e., returns for BTC and ETH prices) were used to standardize the scale and allow meaningful comparisons across metrics.
 
 #### 2. Rolling Correlation
-Rolling correlations provide insights into dynamic relationships over time. The analysis uses a 7-day rolling window during 2024.
+Rolling correlations provide insights into dynamic relationships between token transaction volumes and external metrics over time. The analysis uses a 14-day rolling window during 2024 to capture these temporal dynamics. To enhance the analysis of significant volume changes, a 1-day buffer was applied to merge closely occurring outlier days into clusters. This approach ensures that periods of heightened activity or anomalies are analyzed as cohesive intervals rather than isolated events. 
 
 - #### USDT:
     - Rolling correlations with BTC and ETH prices show fluctuating trends, with significant changes aligning with outlier clusters (e.g., in the September period).
