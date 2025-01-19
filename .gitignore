@@ -6,5 +6,6 @@
 __pycache__/
 *.log
 *.bak
-blockchain_env/
+md5_hash.py
 *.pyc
+.env
